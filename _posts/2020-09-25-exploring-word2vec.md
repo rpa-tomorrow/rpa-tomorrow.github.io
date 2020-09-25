@@ -49,7 +49,7 @@ class Word2Vec(nn.Module):
 The Word2Vec model has two parameters the `vocab_size` is the size of our vocabulary and `embeddings_size` is the number of dimensions to use for our final word vectors.
 
 Hyper parameters used:
-```
+```python
 embedding_size = 30
 window_size = 2
 batch_size = 64
@@ -60,7 +60,7 @@ criterion = nn.CrossEntropyLoss()
 ```
 
 Creating the skip-grams:
-```
+```python
 word_sequence = data.word_sequence_from_korp_dataset("../dataset/" + filename)
 vocab = list(set(word_sequence))
 vocab_size = len(vocab)
@@ -77,7 +77,7 @@ num_skip_grams = len(skip_grams)
 ```
 
 Now training this can be done in several ways but the easiest method seams to just take a few random samples from the skip-grams.
-```
+```python
 def load_samples():
     input_batch = list()
     target_batch = list()
