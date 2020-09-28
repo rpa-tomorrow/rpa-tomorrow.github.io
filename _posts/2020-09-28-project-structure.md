@@ -2,7 +2,7 @@
 
 ---
 layout: post
-title:  "Project structure and internal groups"
+title:  "General update and flowchart"
 date:   2020-09-28
 categories: rpa-tomorrow blog 
 ---
@@ -19,8 +19,7 @@ Internal groups
 
 These group formations are loosely based and naturally members will help out where is needed for further progress. 
 
-![Results](images/Flowchart-1.jpg)
-
+![Flowchart](images/Flowchart-1.jpg)
 
 A first prototype for the CLI has been written which simply parses the input and forwards it to spaCy. The intention here is expand the functionality later down the road and possibly write a GUI for the application as well. Most likely the GUI will be browser-based. 
 
