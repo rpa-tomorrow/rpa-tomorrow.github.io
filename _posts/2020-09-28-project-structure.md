@@ -2,7 +2,7 @@
 
 ---
 layout: post
-title:  "General update and flowchart"
+title:  "Project structure and internal groups"
 date:   2020-09-28
 categories: rpa-tomorrow blog 
 ---
