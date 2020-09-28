@@ -19,7 +19,8 @@ Internal groups
 
 These group formations are loosely based and naturally members will help out where is needed for further progress. 
 
-![Flowchart](/images/Flowchart-1.png)
+![Results](images/Flowchart-1.jpg)
+
 
 A first prototype for the CLI has been written which simply parses the input and forwards it to spaCy. The intention here is expand the functionality later down the road and possibly write a GUI for the application as well. Most likely the GUI will be browser-based. 
 
